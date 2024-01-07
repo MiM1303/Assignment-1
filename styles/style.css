@@ -6,7 +6,7 @@ body {
 /* HEADER STYLES */
 header{
     margin-top: 50px;
-
+    margin-bottom: 120px;
 }
 .banner-container{
     /* height: 8.2%; */
@@ -40,3 +40,36 @@ header{
     font-weight: 900;
     margin-top: 0px;
 }
+
+
+/* DISCOUNT SECTION STYLES */
+
+.discount-container{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.discount-container .title1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-container .title2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-container .title3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
