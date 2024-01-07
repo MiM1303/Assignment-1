@@ -1,0 +1,42 @@
+/* COMMON SHARED STYLES */
+body {
+    font-family: 'Merriweather', serif;
+  }
+
+/* HEADER STYLES */
+header{
+    margin-top: 50px;
+
+}
+.banner-container{
+    /* height: 8.2%; */
+    width: 82.5%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)), url('../resources/Banner\ Image.png');
+    /* position:relative; */
+    margin:auto auto;
+    background-repeat: no-repeat;
+    max-height:600px;
+}
+
+.banner-content{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin:0 auto;
+    padding: 130px 344px 170px 344px;
+}
+
+.banner-content h5{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-content h2{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+}
