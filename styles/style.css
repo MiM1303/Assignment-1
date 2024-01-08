@@ -361,6 +361,7 @@ header{
     text-align: center;
     margin:auto auto;
     align-items: center;
+    margin-bottom: 120px;
   }
 
 
@@ -386,10 +387,6 @@ header{
     margin-bottom: 48px;
     padding-left: 212px;
     padding-right: 212px;
-  }
-
-  .newsletter-container .subscribe-container{
-    /* display: flex; */
   }
 
   .newsletter-container .subscribe-container input{
@@ -422,4 +419,51 @@ header{
     border: 0px;
     position: relative;
     right: 100px;
+  }
+
+
+  /* FOOTER SECTION STYLES */
+
+  footer{
+    background: #070211;
+    /* padding: 120px 140px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 140px;
+  }
+
+  footer .information-1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    /* width: 375px; */
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+    padding-right: 275px;
+  }
+
+  footer .logos{
+    text-align: center;
+    margin-bottom: 98px;
+    
+  }
+
+  footer .logos img{
+    position: relative;
+    right: 50px;
+    margin-right: 24px;
+  }
+
+  footer .information-2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 140px;
   }
