@@ -3,6 +3,7 @@ body {
     font-family: 'Merriweather', serif;
     /* margin-left: 140px;
     margin-right: 140px; */
+    
   }
 
 /* HEADER STYLES */
@@ -12,13 +13,13 @@ header{
 }
 .banner-container{
     /* height: 8.2%; */
-    width: 82.5%;
+    width: 1320px;
+    height: 600px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)), url('../resources/Banner\ Image.png');
     /* position:relative; */
     margin:auto auto;
     background-repeat: no-repeat;
-    max-height:600px;
 }
 
 .banner-content{
@@ -79,18 +80,19 @@ header{
 /* PARTY SECTION STYLES */
 
 .party-container{
-    width: 82.5%;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)), url('../resources/Vectorrr.png');
     margin:auto auto;
     background-repeat: no-repeat;
-    max-height:600px;
 
     background-size: 100% 100%, cover;
     background-position: center;
     display: flex;
     align-items: center;
     margin-bottom: 120px;
+
+    width: 1320px;
+    height: 600px;
 
 }
 
@@ -142,7 +144,6 @@ header{
     margin:auto auto;
     padding-top: 100px;
     border-radius: 16px;
-    width: 82.5%;
     margin-bottom: 120px;
 }
 
@@ -175,10 +176,12 @@ header{
 .comingsoon-container{
     display: flex;
     gap: 120px;
-    width: 82.5%;
     margin:auto auto;
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 120px;
+    width: 1320px;
+    height: 600px;
 }
 
 
@@ -243,3 +246,39 @@ header{
     margin-top: 0px;
     margin-bottom: 43px;
   }
+
+
+  /* SALE SECTION STYLES */
+
+  .sale-description{
+    width: 66.75%;
+    margin:auto auto;
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .sale-description .title-1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .sale-description .title-2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 28px;
+  }
+
+  .sale-description .title-3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
