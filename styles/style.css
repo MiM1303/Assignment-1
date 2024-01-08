@@ -1,6 +1,8 @@
 /* COMMON SHARED STYLES */
 body {
     font-family: 'Merriweather', serif;
+    /* margin-left: 140px;
+    margin-right: 140px; */
   }
 
 /* HEADER STYLES */
@@ -139,7 +141,9 @@ header{
     height: 482px;
     margin:auto auto;
     padding-top: 100px;
-
+    border-radius: 16px;
+    width: 82.5%;
+    margin-bottom: 120px;
 }
 
 .location-container .location-description{
@@ -164,3 +168,78 @@ header{
     font-weight: 700;
     border: 0px;
 }
+
+
+/* COMING SOON SECTION STYLES */
+
+.comingsoon-container{
+    display: flex;
+    gap: 120px;
+    width: 82.5%;
+    margin:auto auto;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.description1{
+    width: 650px;
+}
+
+.comingsoon-container .description1 .title-1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.comingsoon-container .description1 .title-2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    margin-top: 0px;
+}
+
+.comingsoon-container .description1 .title-3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.comingsoonimg{
+    /* margin-left: 120px; */
+    /* margin-right: 130px; */
+}
+
+.comingsoonimg img{ 
+    border: 15px solid red;
+    padding: 49px;
+    /* border-image: url('../resources/Rectangle\ 2.png') 30 round; */
+    border-radius: 50%;
+  }
+
+  .description2{
+    /* margin-left: 120px; */
+  }
+
+  .description2 .title-1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .description2 .title-2{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 43px;
+  }
