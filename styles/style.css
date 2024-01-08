@@ -457,7 +457,7 @@ header{
     /* padding-top: 120px;
     padding-bottom: 120px; */
     padding: 120px 140px;
-    width: 100%;
+    width: 1615px;
     
   }
 
@@ -465,8 +465,6 @@ header{
     background: rgba(255, 255, 255, 0.15);
     /* width: 1320; */
     margin-bottom: 50px;
-    padding-left: 140px;
-    padding-right: 140px;
   }
 
   footer .information-1{
@@ -490,8 +488,8 @@ header{
   }
 
   footer .logos img{
-    position: relative;
-    margin-right: 24px;
+    /* position: relative; */
+    /* margin-right: 24px; */
   }
 
   footer .information-2{
