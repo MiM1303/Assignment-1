@@ -452,7 +452,14 @@ header{
     /* padding: 120px 140px; */
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 140px;
+    width: 100%;
+    
+  }
+
+  hr{
+    background: rgba(255, 255, 255, 0.15);
+    width: 1600px;
+    margin-bottom: 50px;
   }
 
   footer .information-1{
@@ -462,10 +469,10 @@ header{
     font-weight: 500;
     line-height: 40px; /* 166.667% */
     /* width: 375px; */
-
+    padding-left: 140px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 98px;
+    margin-bottom: 50px;
     padding-right: 275px;
   }
 
@@ -477,7 +484,6 @@ header{
 
   footer .logos img{
     position: relative;
-    right: 50px;
     margin-right: 24px;
   }
 
@@ -489,4 +495,5 @@ header{
     display: flex;
     justify-content: space-between;
     padding-right: 140px;
+    padding-left: 140px;
   }
